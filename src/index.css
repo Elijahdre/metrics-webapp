@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Sans:wght@300;500;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +10,39 @@ html {
 }
 
 body {
-  
-
+  font-family: 'Noto Sans', sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+.header {
+  background: #A9A9A9;
+  padding: 1.3rem 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.setting,
+.mic,
+.nav {
+  font-size: 2rem;
+}
+
+.mic {
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 1.5em 4em;
+  }
 }
 
