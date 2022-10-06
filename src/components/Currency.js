@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-import { fetchDetails } from '../redux/crypto/crypto';
+import { fetchDetails } from './redux/crypto/crypto';
 
 function Currency ({}) {
   const dispatch = useDispatch();

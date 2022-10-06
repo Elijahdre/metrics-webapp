@@ -82,5 +82,20 @@ a {
   .header {
     padding: 1.5em 4em;
   }
+  .main-container {
+    height: 50vh;
+    justify-content: unset;
+    padding: 0 4em;
+  }
+
+  .main-container h1 {
+    font-size: 3rem;
+    width: 400px;
+  }
+
+  .main-container img {
+    width: 300px;
+    height: 300px;
+  }
 }
 

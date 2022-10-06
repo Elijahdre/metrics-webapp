@@ -2,6 +2,7 @@ import Currency from "./Currency";
 
 function Currencies() {
   return (
+    <main>
     <section className="main-container">
       <img src="" alt="display-logo" />
       <div>
@@ -11,6 +12,11 @@ function Currencies() {
         </h1>
       </div>
     </section>
+
+    <section className="currency-data">
+      <Currency />
+    </section>
+    </main>
   );
 }
 
