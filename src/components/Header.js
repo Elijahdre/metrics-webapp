@@ -7,9 +7,9 @@ import { IoMdMic } from 'react-icons/io';
 function Header() {
   return(
     <header className="header">
-      <link to="/">
+      <Link to="/">
         <BiCaretLeft className="nav" />
-      </link>
+      </Link>
 
       <div className="menu">
         <RiSettings4Fill className="setting" />
