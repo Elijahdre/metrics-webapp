@@ -53,6 +53,31 @@ a {
   font-size: 1.3rem;
 }
 
+.main-container {
+  display: flex;
+  height: 45vh;
+  width: 100%;
+  align-items: center;
+  padding: 1em 1.2em;
+}
+
+.main-container img {
+  width: 40%;
+  margin-right: 1rem;
+}
+
+.main-container div {
+  display: flex;
+  height: 60%;
+}
+
+.main-container h1 {
+  font-size: 1.7rem;
+  color: white;
+  font-weight: 500;
+  align-self: flex-end;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     padding: 1.5em 4em;
