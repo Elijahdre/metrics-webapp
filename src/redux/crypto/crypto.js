@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const api = 'api.coincap.io/v2/assets?limit=12';
+const api = 'api.coincap.io/v2/assets?limit=7';
 const FETCH_CRYPTO = 'crypto/FETCH_CRYPTO';
 
 const initialState = [];
