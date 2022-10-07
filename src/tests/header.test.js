@@ -16,4 +16,4 @@ describe('Header', () => {
     );
     expect(snap).toMatchSnapshot();
   });
-})
+});
