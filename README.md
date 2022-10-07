@@ -42,7 +42,7 @@ Screenshots can be found in the repository.
 
 ## Live Demo 🔗
 
-Check the live demo [netlify]()👈
+Check the live demo [netlify](https://cryptometrics.netlify.app/)👈
 
 ## Getting Started
 
