@@ -24,7 +24,7 @@
 - [x] Use store, actions and reducers in React.
 
 ## Project Documentation 📄
-- [x] Here is the presentation video [link]()👈
+- [x] Here is the presentation video [link](https://www.loom.com/share/87092be77bf942c795edf7436ef9f588)👈
 
 ## Built With 🛠️
 
@@ -35,7 +35,7 @@
 - [x] Code Editor: VS Code
 
 ## Website Mockup 📱 💻 🖥️
-![app_screenshot]()
+![app_screenshot](app_screenshot.png)
 
 ## Screenshots 📸
 Screenshots can be found in the repository.
