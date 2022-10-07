@@ -1,8 +1,8 @@
-import { useDispatch } from 'react-redux'; 
-import { useEffect } from "react";
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 
+import { fetchCrypto } from '../redux/crypto/crypto';
 import Currencies from './Currencies';
-import { fetchCrypto } from './redux/crypto/crypto';
 
 function Homepage() {
   const dispatch = useDispatch();
@@ -11,8 +11,7 @@ function Homepage() {
     dispatch(fetchCrypto());
   }, []);
 
-  
-  return(
+  return (
     <div>
       <Currencies />
     </div>

@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import { BiCaretLeft } from "react-icons/bi";
+import { BiCaretLeft } from 'react-icons/bi';
 import { RiSettings4Fill } from 'react-icons/ri';
 import { IoMdMic } from 'react-icons/io';
 
 function Header() {
-  return(
+  return (
     <header className="header">
       <Link to="/">
         <BiCaretLeft className="nav" />
