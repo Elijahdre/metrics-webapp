@@ -1,10 +1,28 @@
+import { useState } from 'react';
 import Currency from './Currency';
 import Wallet from '../assets/digital-wallet.png';
 import coinData from './coinData';
 
 function Currencies() {
+  const [inputData, setInputData] = useState('');
+  const [filterData, setFilterData] = useState(coinData);
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    const submitData = coinData.filter((coin) => coin.name === inputData);
+    setFilterData(submitData);
+    setInputData('');
+  }
+
+  function formInput(event) {
+    setInputData(event.target.value);
+  }
+
   return (
     <main>
+      <form onSubmit={handleSubmit}>
+        <input onChange={formInput} placeholder="Enter your search" value={inputData} />
+      </form>
       <section className="main-container">
         <img src={Wallet} alt="crypto wallet" />
         <div>
@@ -17,7 +35,7 @@ function Currencies() {
       </section>
 
       <section className="currency-data">
-        {coinData.map((coin) => (
+        {filterData.map((coin) => (
           <Currency
             key={coin.id}
             name={coin.name}
