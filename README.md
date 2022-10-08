@@ -32,7 +32,7 @@
 - [x] Linters: Stylelint and ESLint
 - [x] Front-end library: React with Redux Toolkit
 - [x] API:
-- [x] Code Editor: VS Code
+- [x] Code Editor: VSCode
 
 ## Website Mockup 📱 💻 🖥️
 ![app_screenshot](app_screenshot.png)
