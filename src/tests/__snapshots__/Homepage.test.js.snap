@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage renders correctly 1`] = `
+<div>
+  <main>
+    <section
+      className="main-container"
+    >
+      <img
+        alt="crypto wallet"
+        src="digital-wallet.png"
+      />
+      <div>
+        <h1>
+          The World’s Fastest Growing
+          <br />
+          Crypto App
+        </h1>
+      </div>
+    </section>
+    <section
+      className="currency-data"
+    >
+      <div
+        className="card"
+      >
+        <a
+          href="/details/:Bitcoin"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            />
+          </svg>
+        </a>
+        <div
+          className="image"
+        >
+          <img
+            alt="Bitcoin"
+            src="bitcoin.png"
+          />
+        </div>
+        <h2>
+          Bitcoin
+        </h2>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/details/:Ethereum"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            />
+          </svg>
+        </a>
+        <div
+          className="image"
+        >
+          <img
+            alt="Ethereum"
+            src="ethereum.png"
+          />
+        </div>
+        <h2>
+          Ethereum
+        </h2>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/details/:Tether"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            />
+          </svg>
+        </a>
+        <div
+          className="image"
+        >
+          <img
+            alt="Tether"
+            src="tether.png"
+          />
+        </div>
+        <h2>
+          Tether
+        </h2>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/details/:USD Coin"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            />
+          </svg>
+        </a>
+        <div
+          className="image"
+        >
+          <img
+            alt="USD Coin"
+            src="usd.png"
+          />
+        </div>
+        <h2>
+          USD Coin
+        </h2>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/details/:BNB"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            />
+          </svg>
+        </a>
+        <div
+          className="image"
+        >
+          <img
+            alt="BNB"
+            src="binance.png"
+          />
+        </div>
+        <h2>
+          Binance coin
+        </h2>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/details/:XRP"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            />
+          </svg>
+        </a>
+        <div
+          className="image"
+        >
+          <img
+            alt="XRP"
+            src="xrp.png"
+          />
+        </div>
+        <h2>
+          XRP
+        </h2>
+      </div>
+      <div
+        className="card"
+      >
+        <a
+          href="/details/:Cardano"
+          onClick={[Function]}
+        >
+          <svg
+            className="icon"
+            fill="currentColor"
+            height="1em"
+            onClick={[Function]}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+            />
+          </svg>
+        </a>
+        <div
+          className="image"
+        >
+          <img
+            alt="Cardano"
+            src="cardano.png"
+          />
+        </div>
+        <h2>
+          Cardano
+        </h2>
+      </div>
+    </section>
+  </main>
+</div>
+`;
